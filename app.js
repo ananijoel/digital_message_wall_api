@@ -6,7 +6,7 @@ const cors = require('cors')
 
 const {Message} = require('./src/dataBase/sequelize')
 
-const staticport = 3000
+const staticport = 4000
 const app = express()
 const port = process.env.PORT || staticport
 
